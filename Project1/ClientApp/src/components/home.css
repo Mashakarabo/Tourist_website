@@ -1,0 +1,137 @@
+﻿body {
+
+}
+
+h1{
+    
+    color:orange;
+    font-family:Bahnschrift;
+}
+
+p {
+    font-family: Bahnschrift;
+    font-size: x-large;
+}
+
+.Widget{
+    display:flex;
+    justify-content:space-between;    
+}
+
+.contect_first, .contect_second,
+.contect_third, .contect_fourth{
+    height:300px;
+    background-color:cadetblue;
+    width:250px;
+
+}
+
+.contect_first:hover{
+    position: relative;
+    top:8px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Widget {
+        display: block;
+        justify-content: space-around;
+        
+    }
+    .contect_first, .contect_second,
+    .contect_third, .contect_fourth {
+        height: 250px;
+        background-color: cadetblue;
+        width: 500px;
+        box-shadow: 3px 3px 3px pink;
+    } 
+}
+
+
+
+p1{
+    position:relative;
+    top:240px;
+    
+    font-weight:bolder;
+    color:white;
+    background-color:black;
+    
+}
+.bar{
+    background-color:black;
+    width:100%;
+    height: 50px;
+    position: relative;
+    top: 60px;
+    color: white;
+    text-align: center;
+}
+
+
+.Sub-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    height: 570px;
+    position: relative;
+    top: 100px;
+}
+
+img {
+    
+    border-radius: 5px;
+    box-shadow:4px 4px 4px 4px black;
+}
+img:hover{
+    box-shadow:3px 3px 3px 3px skyblue;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Sub-content {
+        display: block;
+        height: 570px;
+        position: relative;
+        top: 10px;
+        
+    }
+    #subpicture{
+        width:101%;
+    }
+
+    .Last-content {
+
+        position: relative;
+        top: 30px;
+        
+    }
+
+   
+}
+
+.Last-content {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+#buytickets{
+
+    padding: 20px;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px red;
+}
+
+
+
